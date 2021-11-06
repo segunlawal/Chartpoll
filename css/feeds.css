@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ul{
+    
+} */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #686868;
+}
+.btn-latest{
+    border: 0.5px solid #C4C4C4;
+    border-radius: 16px;
+    font-size: 16px;
+} 
+.search-bar{
+    border: 1px solid #C4C4C4;
+    border-radius: 16px;
+    font-size: 16px;
+}
+.notification-container{
+    width: 30px;
+    background-image: url(../images/notification-bell.png);
+    background-position: 0 ;
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+.notification-counter {
+    height: 12px;
+}
+.profile-image{
+    border-radius: 50%;
+}
+.btn-create-poll{
+    border-radius: 16px;
+}
+.btn-deepblue{
+    background-color: #09174B;
+    color: white;
+    border: solid #09174B;
+}
+
+@media (max-width:425px) {
+    .search-bar{
+        width: 100%;
+    }
+    .btn-latest{
+        width: 100%;
+    }
+    .collapse, .btn{
+        display: none;
+    }
+    .latest-search{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:768px) {
+    .btn-create-poll{
+        margin-top: 10px;
+    }
+    .collapse, .btn{
+        display: none;
+    }
+    .question-bar{
+        flex-wrap: wrap;
+    }
+}

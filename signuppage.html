@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/Signinpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Sign in Page</title>
+  </head>
+  <body>
+    <section class="page vh=100 overflow-hidden">
+      <div class="row gx-5">
+        <div class="col-6">
+          <img class="img-fluid" src="./images/desktop.png" alt="">
+        </div>
+        <div class="col-6 mt-5">
+          <div class="">
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <p class="mt-2">Please login to your account</p>
+          </div>
+          <div class="button">
+            <a href="usersignup.html"><button class="btn btn-outline-primary w-50" type="button" name="facebook"> <i class="bi bi-facebook"></i> Continue with Facebook</button></a>
+          </div>
+          <div class="check">
+            <a href="usersignup.html"><button class="btn btn-outline-primary mt-3 w-50" type="button" name="google"> <i> <img class="img-fluid" src="./images/google.png" alt=""> </i> Continue with Google</button></a>
+          </div>
+          <div class="alert text-center col-6" role="alert">
+            <a href="usersignup.html" class="alert-link text-secondary fs-6 fw-normal">Continue with email</a>
+          </div>
+          <form>
+            <div class="mb-3">
+              <label for="InputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control w-50" placeholder="Enter your email address" id="InputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control w-50" placeholder="*********" id="exampleInputPassword1">
+            </div>
+          </form>
+          <a href="usersignup.html"><button class="btn w-50 text-light rounded-3" id="cont" type="button" name="email">Continue with Email</button></a>
+          <div class="text-center col-10 mt-2">
+            <a href="forgotpassword.html" class="text-secondary text-decoration-none">Forgot Password?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./JavaScript/bootstrap.min.js"></script>
+  </body>
+</html>

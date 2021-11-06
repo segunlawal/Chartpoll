@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/categories.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Categories</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto px-sm-2 fs-5 px-0 menulong">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 mt-2 text-white min-vh-100">
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                      <li class="pb-3">
+                          <a href="#" class="nav-link align-middle px-0">
+                              <i class="fs-4 bi-house d-sm-none"></i> <span class="ms-1 d-none d-sm-inline"><img class="img-fluid" width="150px" src="./images/logo.png" alt=""></span</a>
+                      </li>
+                      <li class="nav-item pb-2">
+                          <a href="dashboard.html" class="nav-link align-middle px-0">
+                              <i class="fs-4 bi-speedometer2 d-sm-none"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span></a>
+                      </li>
+                        <li class="nav-item pb-2">
+                            <a href="polls.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-check2-square d-sm-none"></i> <span class="ms-1 d-none d-sm-inline">Polls</span></a>
+                        </li>
+                        <li class="nav-item pb-2">
+                            <a href="users.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-people d-sm-none"></i> <span class="ms-1 d-none d-sm-inline">Users</span></a>
+                        </li>
+                        <li class="nav-item pb-2">
+                            <a href="categories.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-list-ul d-sm-none"></i> <span class="ms-1 d-none d-sm-inline">Categories</span></a>
+                        </li>
+                        <li class="nav-item pb-2">
+                            <a href="messages.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-envelope-open d-sm-none"></i> <span class="ms-1 d-none d-sm-inline">Messages</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-box-arrow-left d-sm-none"></i> <span class="ms-1 d-none d-sm-inline">Log out</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+
+
+            <div class="col py-3">
+              <div class="top-rectangle d-flex mb-4 justify-content-end position-absolute w-100">
+                <i class="fs-2 text-white my-auto bi bi-bell"></i><span class="counter counter-lg pe-3 text-light bg-danger position-relative fs-6">1</span>
+                <img class="img-fluid rounded-circle border-0 pe-3 my-2" src="./images/thumb.png" alt="">
+                <p class="text-white fs-5 my-auto pe-3 fw-bold">Admin</p>
+                <i class="pe-3 text-white my-auto bi bi-caret-down-fill"></i>
+              </div>
+
+              <div class="d-flex justify-content-between dash">
+                <button type="button" class="btn add-category text-light px-5" name="button">Add a user</button>
+                <input type="text" class=" rounded-3 form-control w-25" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+              <div class="row">
+              <div class="col-lg-8 col-md- col-sm- thetable table-responsive mt-4 panel panel-default">
+                <table class="table table-sm table-bordered border-dark text-center">
+                  <thead>
+                    <tr>
+                      <th>S/N</th>
+                      <th>Category Name</th>
+                      <th>Number of Polls</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="fw-bold">1</th>
+                      <td class="fw-bold">Category Name</td>
+                      <td class="fw-bold">678</td>
+                      <td class="text-start"><i class="bi bi-trash text-danger me-3"></i> <i class="bi bi-pencil text-success"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+
+                <div class="card col-lg-4 col-md- col-sm- mt-4 border-dark h-100">
+                  <p class="fw-bold text-start">Category Name</p>
+                  <img class="mx-auto my-4" src="./images/chart.png" alt="">
+                  <p class="fw-bold text-center">Number of Polls: 678</p>
+                  <p class="fw-bold text-center">Number of votes: 678</p>
+                  <button type="button" class="w-25 mx-auto btn add-category text-light fw-bold mt-3 mb-5" name="button">view polls</button>
+                </div>
+            </div>
+              <div class="d-flex justify-content-between dash mt-0">
+                <p class="fs-6 fw-bold">Showing 1 to 15 of 1500 entries</p>
+                <p> <i class="fw-bold fs-5"> << </i> <i class="text-light rounded-3 px-4 py-2 fst-normal one fw-bold">1</i> <i class="fw-bold fs-5"> >> </i></p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.menulong{
+  background-color: #09174B;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.menulong a{
+  color: white !important;
+  font-weight: 700;
+}
+
+.nav-item:hover{
+  background: rgba(238, 238, 238, 0.5);
+  border: 1px solid #FFFFFF;
+  border-radius: 7px;
+  width: 115%;
+}
+.top-rectangle{
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  background: #2A5297;
+  z-index: -1;
+}
+.counter{
+  font-size: 0.9rem;
+  top:7px;
+  right:10px;
+  width: 0.5%;
+  height: 35%;
+  border-radius: 50%;
+  padding-left: 5px;
+}
+.dash{
+  margin-top: 4rem;
+}
+.blue-number{
+  color: #1E79A1;
+}
+.card{
+  border: 0.971403px solid #000000;
+  border-radius: 14.5px;
+}
+.card-q{
+  height: 7rem;
+}
+#users-bg{
+  background: #F7F7F7;
+}
+#pietext{
+  color: #263238;
+}
+#twelve{
+  color: #EF7878;
+  margin-left: 80%;
+}
+#trend{
+  color: #607D8B;
+  margin-left: 30%;
+}
+.full{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-body img{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.piechart img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.leftpart img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.sports, .bbn{
+  font-size: 3rem;
+  color: #855CF8;
+}
+.computers{
+  font-size: 3rem;
+  color: #263238;
+}
+.quiz{
+  font-size: 3rem;
+  color:#EF7878;
+}
+.reply{
+  color: #1E79A1;
+}
+.card{
+  overflow-wrap: anywhere;
+}
+.card-body i, .reply{
+  cursor: pointer;
+}

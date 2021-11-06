@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: Ubuntu !important;
+}
+
+.create-new-poll {
+    height: 100vh;
+    background-color: #676465;
+}
+
+.wrapper {
+    width: 60%;
+}
+
+.title {
+    width: 90%;
+}
+
+.text-category, .select-option, .input-box, .wrapper {
+    border-radius: 15px !important;
+}
+
+.input-box {
+    background: linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+    padding-bottom: 80px;
+}
+
+.options {
+    width: 300px;
+    font-size: 0.7rem;
+}
+
+.btn {
+    background: #09174B !important;
+    border-radius: 20px !important;
+}
+
+@media (max-width:1024px) {
+    .close {
+        width: 30px;
+        height: 30px;
+    }
+
+    .profile p, .input-box {
+        font-size: 1.2rem !important;
+    }
+
+    .profile img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .close {
+        width: 30px;
+        height: 30px;
+    }
+
+    .input-box {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper {
+        width: 70%;
+    }
+
+    .title, .btn {
+        font-size: 1.2rem;
+    }
+    
+    .profile p, .input-box {
+        font-size: 1.0rem !important;
+    }
+
+    .text-category {
+        font-size: 0.9rem !important;
+    }
+
+    .profile img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .options {
+        width: 200px;
+    }
+    
+    .close {
+        width: 20px;
+        height: 20px;
+    }
+
+    .input-box {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width:425px) {
+    .wrapper {
+        width: 80%;
+    }
+
+    .profile img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .profile p, .input-box, .text-category, .text-option, .btn {
+        font-size: 0.8rem !important;
+    }
+
+    .input-box {
+        padding-bottom: 40px;
+    }
+
+    .options {
+        width: 100px;
+    }
+
+    .options svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .options {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:375px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 1.0rem;
+    }
+
+    .profile p, .input-box, .text-category, .text-option, .btn {
+        font-size: 0.7rem !important;
+    }
+
+    .options svg {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .title {
+        font-size: 0.9rem;
+    }
+
+    .profile img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .input-box {
+        padding-bottom: 30px;
+    }
+}
+

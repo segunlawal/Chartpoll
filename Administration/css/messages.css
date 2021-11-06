@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.menulong{
+  background-color: #09174B;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menulong a{
+  color: white !important;
+  font-weight: 700;
+}
+
+.nav-item:hover{
+  background: rgba(238, 238, 238, 0.5);
+  border: 1px solid #FFFFFF;
+  border-radius: 7px;
+  width: 115%;
+}
+.top-rectangle{
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  background: #2A5297;
+  z-index: -1;
+}
+.counter{
+  font-size: 0.9rem;
+  top:7px;
+  right:10px;
+  width: 0.5%;
+  height: 35%;
+  border-radius: 50%;
+  padding-left: 5px;
+  /* background: #FF1010; */
+}
+.dash{
+  margin-top: 4rem;
+}
+.blue-number{
+  color: #1E79A1;
+}
+.one{
+  background: #09174B;
+  box-shadow: 0px 2.72145px 2.72145px rgba(0, 0, 0, 0.25);
+  border-radius: 4.96006px;
+}
+.add-category{
+  background: #2A5297;
+}
+.card img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.full{
+  border: 1.89394px solid;
+  border-radius: 9.4697px;
+}
+.boxe{
+  border: 2.5px solid #09174B;
+  border-radius: 9.4697px;
+}
+.textbxb{
+  background: #E5E8FB;
+  border: 1.89773px solid #000000;
+  border-radius: 0px 18.9773px 18.9773px 28.4659px;
+}
+.textbxy{
+  background: #FBEEC8;
+  border: 1.89773px solid #000000;
+  border-radius: 0px 18.9773px 18.9773px 28.4659px;
+}
+.smalldate{
+  font-size: 0.8rem;
+  margin-left: 30%;
+}
+.smalldatet{
+  font-size: 0.8rem;
+  margin-left: 70%;
+}
+.sendbtn{
+  background: #09174B;
+}
+.textar{
+  resize: none;
+}

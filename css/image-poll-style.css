@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: Ubuntu !important;
+}
+
+.create-poll-image {
+    height: 100vh;
+    background-color: #676465;
+}
+
+.wrapper {
+    width: 60%;
+}
+
+.title {
+    width: 90%;
+}
+
+.input-box {
+    padding-bottom: 80px;
+}
+
+.text-category, .input-box, .wrapper, .image-poll .box, .image-poll {
+    border-radius: 15px !important;
+}
+
+.img-box {
+    width: 180px;
+    height: 18px;
+    font-size: 0.9rem;
+}
+
+.input-box, .image-poll {
+    background: #EEEEEE;
+}
+
+.btn {
+    background: #09174B !important;
+    border-radius: 20px !important;
+}
+
+@media (max-width:1024px) {
+    .wrapper {
+        width: 70%;
+    }
+    
+    .profile p, .input-box {
+        font-size: 1.1rem !important;
+    }
+
+    .profile img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .close {
+        width: 30px;
+        height: 30px;
+    }
+
+    .input-box {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width:768px) {
+    .title, .btn {
+        font-size: 1.3rem !important;
+    }
+
+    .profile p, .input-box {
+        font-size: 1.0rem !important;
+    }
+
+    .text-category, .text-option {
+        font-size:0.9rem !important;
+    }
+
+    .image-poll .box, .img-box {
+        font-size: 0.8rem !important;
+    }
+
+    .profile img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .img-box {
+        width: 130px;
+    }
+    
+    .close {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:425px) {
+    .wrapper {
+        width: 80%;
+    }
+
+    .profile img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .title {
+        font-size: 1.1rem !important;
+    }
+
+    .profile p, .input-box, .text-category, .text-option, .btn {
+        font-size: 0.8rem !important;
+    }
+    
+    .image-poll .box, .img-box {
+        font-size: 0.7rem !important;
+    }
+
+    .input-box {
+        padding-bottom: 40px;
+    }
+
+    .img-box {
+        width: 80px;
+    }
+}
+
+@media (max-width:375px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 1.0rem !important;
+    }
+
+    .profile p, .input-box, .text-category, .text-option, .btn {
+        font-size: 0.7rem !important;
+    }
+
+    .image-poll .box, .img-box {
+        font-size: 0.6rem !important;
+    }
+
+    .profile img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width:320px) {
+    .title {
+        font-size: 0.9rem;
+    }
+
+    .input-box {
+        padding-bottom: 30px;
+    }
+
+    .img-box {
+        width: 70px;
+    }
+}

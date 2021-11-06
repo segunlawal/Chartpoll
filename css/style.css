@@ -1,0 +1,83 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    color: #09174B;
+}
+
+.nav-link button{
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: #09174B;
+    width: 4rem;
+    padding: 0.05rem; 
+}
+
+.hero{
+    height: auto;
+}
+.left-bg, .btn-sec-4{
+    background: linear-gradient(180deg, #010F43 0%, #09174B 124.76%);
+    height: auto;
+}
+
+.right{
+    background: url(../images/telescopes-1722668_960_720\ 1.png)no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.square{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    background-color: #9d37a665;
+    left: -2rem;
+    top: 17%;
+}
+.circle{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    background-color: #0311455e;
+    left: -2rem;
+    top: 30%;
+}
+ 
+/* second section */
+.sec-two-heading{
+    color: rgb(4, 4, 70);
+}
+
+/* forth section */
+
+.bgimage{
+    background: url(../images/swirl.png)no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: 100% 100%;
+   
+}
+.width-30{
+    width: 30%;
+}
+.cards-container{
+    width: 85%;
+}
+/* .cards{
+    width: 32%;
+} */
+.card-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .square, .circle, .img-div{
+        display: none !important;
+    }
+}

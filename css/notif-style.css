@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: Ubuntu !important;
+}
+
+.top-bar form {
+    margin-right: 315px;
+}
+
+.search, .btn, .poll-categories button {
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 16px !important;
+}
+.side-bar {
+    background-color: #EEEEEE;
+}
+
+.left-side {
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+.profile, .poll-categories {
+    width: 290px;
+}
+
+.profile-text-wrapper {
+    bottom: 40px;
+}
+
+.profile .box {
+    background-color: #09174B;
+}
+
+.profile p {
+    line-height: 1.0rem;
+}
+
+.notification p {
+    color: #464646;
+    margin: 2px;
+    font-size: 0.9rem;
+}
+
+.btn {
+    border-color: #09174B !important;
+    width: 240px;
+    height: 48px;
+}
+
+.poll-categories button {
+    color: #1E79A1;
+    border-color: #1E79A1 !important;
+    width: 243.04px;
+    height: 34.22px;
+}
+
+.border-general {
+    border: 0.5px solid rgba(104, 104, 104, 0.2);
+}
+
+.border-navy {
+    border-color: #09174B !important;
+}
+
+.text-navy {
+    color: #09174B;
+}
+
+.color-grey {
+    color: #686868 !important;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.text-grey {
+    color: #464646 !important;
+}
+
+@media (max-width:1024px) {
+    .side-bar-title img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .side-bar-title p {
+        font-size: 1.4rem !important;
+        padding-top: 10px;
+    }
+
+    .top-bar form {
+        margin-right: 115px;
+    }
+
+    .top-bar input {
+        height: 30px;
+    }
+
+    .profile img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .profile p {
+        font-size: 0.9rem !important;
+        line-height: 0.9rem;
+    }
+
+    .profile .fs-4, .poll-categories .fs-4, .notification .fs-4 {
+        font-size: 1.3rem !important;
+    }
+
+    .profile .fs-18 {
+        font-size: 17px !important;
+    }
+
+    .profile .fs-14 {
+        font-size: 13px !important;
+    }
+
+    .btn, .poll-categories button {
+        width: 190px;
+        height: 38px;
+    }
+    
+    .poll-categories button {
+        height: 34px;
+    }
+
+    .left-side {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+    
+    .profile, .poll-categories {
+        width: 240px;
+    }
+
+    .notif-box img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .side-bar-title img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .side-bar-title p {
+        font-size: 1.1rem !important;
+        padding-top: 10px;
+    }
+
+    .side-bar-item img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .top-bar form {
+        margin-right: 25px;
+    }
+
+    .top-bar input {
+        width: 150px;
+    }
+
+    .bi-bell-fill {
+        width: 20px;
+        height: 20px;
+    }
+
+    .top-bar img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .profile img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .profile p {
+        font-size: 0.8rem !important;
+        line-height: 0.8rem;
+    }
+    
+    .profile-text-wrapper {
+        bottom: 30px;
+    }
+
+    .profile .fs-4, .poll-categories .fs-4, .notification .fs-4 {
+        font-size: 1.1rem !important;
+    }
+
+    .profile .fs-18 {
+        font-size: 15px !important;
+    }
+
+    .profile .fs-14, .side-bar-item p, .poll-categories .fs-14, .search, .top-bar p {
+        font-size: 12px !important;
+    }
+
+    .btn, .poll-categories button {
+        width: 160px;
+        height: 28px;
+    }
+    
+    .poll-categories button {
+        height: 24px;
+    }
+
+    .left-side {
+        margin-right: 75px;
+        margin-left: 0px;
+    }
+    
+    .profile, .poll-categories {
+        width: 210px;
+    }
+
+    .notification {
+        width: 390px !important;
+    }
+
+    .notification p {
+        font-size: 0.8rem !important;
+    }
+
+    .notif-box img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .side-bar {
+        display: none;
+    }
+    
+    .profile, .poll-categories {
+        width: 95% !important;
+    }
+
+    .notification {
+        width: 90% !important;
+    }
+
+    .notification p {
+        font-size: 0.7rem !important;
+    }
+
+    .profile p {
+        font-size: 1.0rem !important;
+        line-height: 1.0rem;
+    }
+
+    .profile .fs-4, .poll-categories .fs-4, .notification .fs-4 {
+        font-size: 1.3rem !important;
+    }
+
+    .profile .fs-18 {
+        font-size: 18px !important;
+    }
+
+    .profile .fs-14, .side-bar-item p, .poll-categories .fs-14, .search, .top-bar p {
+        font-size: 14px !important;
+    }
+
+    .btn, .poll-categories button {
+        width: 250px;
+    }
+
+    .left-side, .profile .img-box, .profile .button-box, .poll-categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .notification .fs-4, .profile p {
+        text-align: center;
+    }
+
+    .notification p {
+        padding-left: 20px;
+    }
+
+    .top-bar form {
+        margin-right: 0px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .btn, .poll-categories button {
+        width: 200px;
+    }
+
+    .notification p {
+        padding: 0px;
+    }
+    
+    .notification img {
+       margin-left: 15px;
+    }
+
+    .profile p {
+        font-size: 0.8rem !important;
+        line-height: 0.8rem;
+    }
+
+    .profile .fs-4, .poll-categories .fs-4, .notification .fs-4 {
+        font-size: 1.1rem !important;
+    }
+
+    .profile .fs-18 {
+        font-size: 15px !important;
+    }
+
+    .profile .fs-14, .side-bar-item p, .poll-categories .fs-14, .search, .top-bar p {
+        font-size: 12px !important;
+    }
+    
+    .bi-bell-fill {
+        width: 10px;
+        height: 10px;
+        margin: 0px;
+    }
+
+    .top-bar input {
+        width: 110px;
+    }
+}
