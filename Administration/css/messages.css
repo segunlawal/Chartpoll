@@ -89,3 +89,13 @@
 .textar{
   resize: none;
 }
+.tsa i{
+  position: absolute;
+  left: 63%;
+  right: 15%;
+  top: 93.05%;
+  bottom: 0.2%;
+}
+.tsa{
+  background: #F7F7F7;
+}
