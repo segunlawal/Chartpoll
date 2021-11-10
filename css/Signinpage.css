@@ -14,3 +14,10 @@
 .check img{
   width: 10%;
 }
+.bg-cover {
+    background: url(../images/cover-img.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
