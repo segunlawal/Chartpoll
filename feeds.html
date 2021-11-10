@@ -56,11 +56,11 @@
                 <div class="container-fluid bg-light top-bar py-2 flex-wrap">
                     <div class="d-flex justify-content-between align-item-center flex-wrap">
                         <div class="latest-search d-flex gap-4 flex-wrap">
-                            <select class="btn-latest px-2 py-2" type="dropdown">
+                            <select class="btn-latest px-3 h-75" type="dropdown">
                                 <option value="" disabled selected>Latest</option>
                                 <option value="" ></option>
                             </select>
-                            <input type="search" class="search-bar px-3 py-1" placeholder="Search a pull">
+                            <input type="search" class="search-bar px-3 py-1 h-75" placeholder="Search a pull">
                         </div>
                         <div class="notification-profle d-flex p-2 flex-wrap">
                             <div class="notification-container">
@@ -80,7 +80,60 @@
                         <div class="bg-light question-bar p-2 my-2 d-flex justify-content-evenly gap-2" >
                             <div class="profile-image-container align-item-center"><img src="./images/follows-person3.png" alt="profile image" class="profile-image img-fluid"></div>
                             <input type="search" class="search-bar px-3 py-1 w-75" placeholder="Ask a question ">
-                            <a href="create-poll.html"><button type="submit" class="btn-create-poll btn-deepblue px-3 py-1">Create poll</button></a>
+                            <a><button type="button" class="btn-create-poll btn-deepblue px-3 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Create poll</button></a>
+                            <!-- <a><button type="button" class="btn btn-outline-light rounded-pill ms-4 " data-bs-toggle="modal" data-bs-target="#exampleModal">Create your poll</button></a> -->
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <!-- <div class="modal-body"> -->
+                                  <section class="create-new-poll d-flex align-items-center">
+                                      <div class="container-fluid wrapper border border-dark px-lg-5 px-xl-5 px-md-3 bg-white">
+                                          <div class="head d-flex justify-content-between mt-2">
+                                              <h4 class="title text-center py-xl-2">Create a new poll</h4>
+                                              <a href=""><img src="./images/x-circle.svg" alt="" class="close"></a>
+                                          </div>
+                                          <div class="container">
+                                              <div class="row mb-2">
+                                                  <div class="col-lg-6 col-md-6 col-xl-6 col-7 d-flex align-items-center profile">
+                                                      <img src="./images/profile-pic.jpg" alt="" class="rounded-circle" width="60px" height="60px">
+                                                      <p class="fs-5 m-lg-3 m-xl-3 m-md-3 m-2">Person Picken</p>
+                                                  </div>
+                                                  <div class="col-lg-6 col-md-6 col-xl-6 col-5 mt-3">
+                                                      <p class="border border-dark text-center py-xl-2 py-lg-1 text-category">Select category</p>
+                                                  </div>
+                                              </div>
+                                              <form action="#">
+                                                  <input type="text" name="question" placeholder="Type your question here..." class="border border-dark rounded mb-2 form-control input-box pt-3 fs-5">
+                                                  <div class="select-option border border-dark mb-2 px-3 d-flex align-items-center justify-content-between">
+                                                      <p class="pt-2 text-option">Select option type</p>
+                                                      <div class="options d-flex align-items-center justify-content-evenly pt-3">
+                                                          <div class="text-center me-3">
+                                                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="rgb(63, 66, 65)" class="bi bi-bounding-box" viewBox="0 0 16 16">
+                                                                  <path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z"/>
+                                                              </svg>
+                                                              <a href="create-poll-text.html" class="text-decoration-none text-dark"><p class="mt-1">Text option</p></a>
+                                                          </div>
+                                                          <div class="text-center">
+                                                              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="rgb(63, 66, 65)" class="bi bi-image" viewBox="0 0 16 16">
+                                                                  <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                                                                  <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+                                                              </svg>
+                                                              <a href="create-poll-image.html" class="text-decoration-none text-dark"><p class="mt-1">Image option</p></a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <a href="feeds.html"><button type="button" class="btn form-control text-white fs-4 py-lg-1 py-xl-2 py-md-0 mb-4">post</button></a>
+                                              </form>
+                                          </div>
+                                      </div>
+                                  </section>
+
+                                  <!-- </div> -->
+
+                                </div>
+                              </div>
+                            </div>
                         </div>
                         <div class="middle-section polls bg-light p-2">
                             <div class="poll-area d-flex gap-2 mb-4 bg-light">
@@ -193,7 +246,7 @@
                                     <div class="profile-image-container"><img src="./images/follows-person3.png" alt="profile image" class="profile-image img-fluid"></div>
                                     <p>Emi tubo <br> @superemi</p>
                                 </div>
-                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1">Follow</button>
+                                <button type="submit" class="btn-create-poll btn-deepblue px-2 h-25 py-1">Follow</button>
                             </div>
                             <hr>
 
@@ -202,7 +255,7 @@
                                     <div class="profile-image-container"><img src="./images/follows-person1.png" alt="profile image" class="profile-image img-fluid"></div>
                                     <p>Emi tubo <br> @superemi</p>
                                 </div>
-                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1">Follow</button>
+                                <button type="submit" class="btn-create-poll btn-deepblue px-2 h-25 py-1">Follow</button>
                             </div>
                             <hr>
 
@@ -211,7 +264,7 @@
                                     <div class="profile-image-container"><img src="./images/profile-logo.png" alt="profile image" class="profile-image img-fluid"></div>
                                     <p>Emi tubo <br> @superemi</p>
                                 </div>
-                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1">Follow</button>
+                                <button type="submit" class="btn-create-poll btn-deepblue px-2 h-25 py-1">Follow</button>
                             </div>
                             <hr>
                             <a href="#"><h6 class= "text-end">See more</h6></a>
@@ -224,7 +277,7 @@
                                     <div class="profile-image-container"><img src="./images/desktop-3207592_1920 1.png" alt="profile image" class="profile-image img-fluid"></div>
                                     <p>Emi tubo <br> @superemi</p>
                                 </div>
-                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1">Join</button>
+                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1 h-25 w-25">Join</button>
                             </div>
                             <hr>
 
@@ -233,7 +286,7 @@
                                     <div class="profile-image-container"><img src="./images/topfeeds-icon2.png" alt="profile image" class="profile-image img-fluid"></div>
                                     <p>Emi tubo <br> @superemi</p>
                                 </div>
-                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1">Join</button>
+                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1 h-25 w-25">Join</button>
                             </div>
                             <hr>
 
@@ -242,7 +295,7 @@
                                     <div class="profile-image-container"><img src="./images/topfeeds-icon3.png" alt="profile image" class="profile-image img-fluid"></div>
                                     <p>Emi tubo <br> @superemi</p>
                                 </div>
-                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1">Join</button>
+                                <button type="submit" class="btn-create-poll btn-deepblue px-2 py-1 h-25 w-25">Join</button>
                             </div>
                             <hr>
                             <a href="#"><h6 class= "text-end">See more</h6></a>
