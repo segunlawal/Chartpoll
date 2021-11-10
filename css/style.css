@@ -14,7 +14,7 @@
     color: white;
     background-color: #09174B;
     width: 4rem;
-    padding: 0.05rem; 
+    padding: 0.05rem;
 }
 
 .hero{
@@ -46,10 +46,19 @@
     left: -2rem;
     top: 30%;
 }
- 
+
 /* second section */
 .sec-two-heading{
     color: rgb(4, 4, 70);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.cards{
+  width: 22rem;
+}
+.quotes{
+  width: 10%;
 }
 
 /* forth section */
@@ -59,7 +68,7 @@
     background-size: cover;
     height: auto;
     background-position: 100% 100%;
-   
+
 }
 .width-30{
     width: 30%;
@@ -67,13 +76,21 @@
 .cards-container{
     width: 85%;
 }
-/* .cards{
-    width: 32%;
-} */
+.cards{
+    width: 26rem;
+}
 .card-image{
     width: 70px;
     height: 70px;
     border-radius: 50%;
+}
+.footer-text{
+  color: #C4C4C4;
+}
+
+.input-box {
+    background: linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+    padding-bottom: 80px;
 }
 
 @media (max-width: 767px) {
