@@ -65,8 +65,34 @@
   border: none;
   /* width: 22rem; */
 }
+.card p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #464646;
+}
 .quotes{
   width: 10%;
+}
+.chtpol{
+  color: #09174B;
+}
+.qmarks{
+  position: absolute;
+width: 32px;
+height: 29px;
+left: calc(50% - 32px/2 - 592px);
+top: 1730px;
+
+background: #000000;
+}
+
+.xyz{
+  color: #686868;
+  font-weight: normal;
+}
+.emi{
+  color: #464646;
 }
 
 /* forth section */
