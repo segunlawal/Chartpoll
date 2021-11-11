@@ -37,7 +37,7 @@
     left: -2rem;
     top: 17%;
     background: #9D37A6;
-    background-blend-mode: overlay;
+    background-blend-mode: screen;
 }
 .circle{
     width: 180px;
