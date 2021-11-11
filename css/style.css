@@ -34,9 +34,10 @@
     height: 120px;
     width: 120px;
     position: relative;
-    background-color: #9d37a665;
     left: -2rem;
     top: 17%;
+    background: #9D37A6;
+    background-blend-mode: overlay;
 }
 .circle{
     width: 180px;
@@ -54,8 +55,10 @@
     line-height: 1.1;
 }
 
-.cards{
-  width: 22rem;
+.card{
+  background: #EEEEEE;
+  border: none;
+  /* width: 22rem; */
 }
 .quotes{
   width: 10%;
@@ -68,6 +71,14 @@
     background-size: cover;
     height: auto;
     background-position: 100% 100%;
+
+}
+.aks{
+  color: #08174C;
+}
+.bgks button{
+  background: #EEEEEE;
+  color: #464646;
 
 }
 .width-30{
