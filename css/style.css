@@ -31,21 +31,26 @@
     height: auto;
 }
 .square{
-    height: 120px;
-    width: 120px;
+    height: 123px;
+    width: 123px;
     position: relative;
     left: -2rem;
-    top: 17%;
+    top: 43%;
     background: #9D37A6;
-    background-blend-mode: screen;
+    mix-blend-mode: color-dodge;
 }
 .circle{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    background-color: #0311455e;
-    left: -2rem;
-    top: 30%;
+    background: #031145;
+    right: 5%;
+    top: 47%;
+    mix-blend-mode: screen;
+
+}
+.text{
+  margin-top: 10%;
 }
 
 /* second section */
