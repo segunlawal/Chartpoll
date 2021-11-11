@@ -134,6 +134,15 @@ background: #000000;
     padding-bottom: 80px;
 }
 
+@media (max-width: 500px) {
+    .ftr-right{
+        display: none !important;
+    }
+    .ftr-left{
+      margin-left: 30%!important;
+      margin-top: 5%;
+    }
+}
 @media (max-width: 767px) {
     .square, .circle, .img-div{
         display: none !important;
