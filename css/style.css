@@ -34,7 +34,7 @@
     height: 123px;
     width: 123px;
     position: relative;
-    left: -2rem;
+    left: -1rem;
     top: 43%;
     background: #9D37A6;
     mix-blend-mode: color-dodge;
@@ -50,7 +50,7 @@
 
 }
 .text{
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 /* second section */
